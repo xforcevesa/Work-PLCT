@@ -32,3 +32,7 @@ make
 Okay，执行完了之后，ls一下，出现了构建好的pdf文件，使用Firefox打开吧！
 
 ![](./img/Screenshot_20221205_144547.png)
+
+## 构建脚本
+
+![戳这里](./build_script.sh)
