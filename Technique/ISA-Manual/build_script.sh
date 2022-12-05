@@ -11,5 +11,6 @@ if ! pdflatex -v &> /dev/null
 then
   sudo dnf install texlive{,-multirow,-comment,-verbatimbox} -y
 fi
+
 cd build
 make
