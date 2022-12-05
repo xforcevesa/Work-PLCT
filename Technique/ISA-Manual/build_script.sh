@@ -1,4 +1,4 @@
-if [ ! -d "./riscv-isa-manual" ]
+if [[ ! -d "./riscv-isa-manual" ]]
 then
   git https://github.com/riscv/riscv-isa-manual
   cd riscv-isa-manual
