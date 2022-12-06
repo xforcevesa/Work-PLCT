@@ -30,7 +30,7 @@ sudo alternatives --config java
 ## 使用方法
 
 ```bash
-jenkin --httpPort=8080
+jenkins --httpPort=8080
 ```
 
 - 随后浏览器打开 http://127.0.0.1:8080
