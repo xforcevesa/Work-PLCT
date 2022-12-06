@@ -1,5 +1,9 @@
 # Jenkins调研报告
 
+# 系统环境
+
+- OpenEuler 22.03 V1 RISC-V preview
+
 ## 安装教程
 
 ### 第1步：导入Jenkins仓库
