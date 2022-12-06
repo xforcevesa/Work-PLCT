@@ -2,6 +2,8 @@
 
 # 系统环境
 
+- 运行内存12G，vcpu20个
+
 - OpenEuler 22.03 V1 RISC-V preview
 
 ## 安装教程
@@ -36,3 +38,5 @@ jenkins --httpPort=8080
 - 随后浏览器打开 http://127.0.0.1:8080
 
 - 初始化后按照[官方教程](https://www.jenkins.io/zh/doc/)进行操作
+
+![](./img/Screenshot_20221206_173637.png)
