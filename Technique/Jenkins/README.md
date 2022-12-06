@@ -29,4 +29,6 @@ sudo alternatives --config java
 jenkin --httpPort=8080
 ```
 
-随后浏览器打开 http://127.0.0.1:8080，初始化后按照[官方教程](https://www.jenkins.io/zh/doc/)进行操作
+- 随后浏览器打开 http://127.0.0.1:8080
+
+- 初始化后按照[官方教程](https://www.jenkins.io/zh/doc/)进行操作
