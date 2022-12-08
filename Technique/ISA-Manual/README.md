@@ -35,4 +35,6 @@ Okay，执行完了之后，ls一下，出现了构建好的pdf文件，使用Fi
 
 ## 构建脚本
 
-![戳这里](./build_script.sh)
+[戳这里](./build_script.sh)
+
+- 每日早晨八点，准时构建
