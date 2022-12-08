@@ -2,7 +2,7 @@
 
 # 系统环境
 
-- 运行内存12G，vcpu20个
+- 运行内存12G，vcpu 20个
 
 - OpenEuler 22.03 V1 RISC-V preview
 
@@ -40,3 +40,23 @@ jenkins --httpPort=8080
 - 初始化后按照[官方教程](https://www.jenkins.io/zh/doc/)进行操作
 
 ![](./img/Screenshot_20221206_173637.png)
+
+## 使用报告
+
+- 初次运行，设置与下载插件花了近一个小时。
+
+- 装好后每次启动Jenkins需要花5分钟。
+
+## 使用截图
+
+![](./img/mmexport1670504306366.jpg)
+
+![](./img/mmexport1670504310426.jpg)
+
+![](./img/mmexport1670504313379.jpg)
+
+![](./img/mmexport1670504429538.jpg)
+
+![](./img/mmexport1670504440039.jpg)
+
+![](./img/mmexport1670504443230.jpg)
