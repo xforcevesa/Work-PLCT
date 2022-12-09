@@ -1,6 +1,6 @@
 if [[ ! -d "./riscv-isa-manual" ]]
 then
-  git https://github.com/riscv/riscv-isa-manual
+  git clone https://github.com/riscv/riscv-isa-manual
   cd riscv-isa-manual
 else
   cd riscv-isa-manual
@@ -15,7 +15,7 @@ fi
 cd build
 make
 
-echo 0 8 * * openeuler "cd $(pwd)/riscv-isa-manual/build; make" | sudo tee -a /etc/crontab
+echo 0 8 * * openeuler "cd $(pwd)/riscv-isa-manual; git pull; cd ./build; make" | sudo tee -a /etc/crontab
 sudo systemctl enable crond
 sudo systemctl start crond
 sudo crontab /etc/crontab
