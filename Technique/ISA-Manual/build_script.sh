@@ -15,7 +15,11 @@ fi
 cd build
 make
 
-echo 0 8 * * openeuler "cd $(pwd)/riscv-isa-manual; git pull; cd ./build; make" | sudo tee -a /etc/crontab
-sudo systemctl enable crond
-sudo systemctl start crond
-sudo crontab /etc/crontab
+
+if [[ "$1" == "raw" ]]
+then
+  echo 0 8 * * openeuler "$(pwd)/build_script.sh raw"  | sudo tee -a /etc/crontab
+  sudo systemctl enable crond
+  sudo systemctl start crond
+  sudo crontab /etc/crontab
+fi
